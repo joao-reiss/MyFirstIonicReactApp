@@ -1,4 +1,4 @@
-import { IonButton, IonCol, IonContent, IonLabel, IonPage, IonRow } from "@ionic/react";
+import { IonButton, IonCol, IonContent, IonPage, IonRow } from "@ionic/react";
 import './Register.css';
 
 const Register: React.FC = () => {
