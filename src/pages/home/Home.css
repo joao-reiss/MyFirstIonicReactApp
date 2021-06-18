@@ -1,0 +1,70 @@
+.content{
+    --background: linear-gradient( var(--ion-color-primary-shade), #f2f2f2) ;
+}
+
+#alHome{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#BemVindo{
+    font-family:'Righteous';
+    font-size: 2em;
+    text-transform: Uppercase;
+}
+
+#sLogin{
+    font-family: 'Righteous';
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.formInputs
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+  /* border: 2px solid var(--ion-color-warning-contrast); */
+  background: #f2f2f2;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item{
+    --background: transparent;
+    border-radius: 20px;
+}
+ .label{
+     font-family: 'Righteous';
+    color: var(--ion-color-primary);
+ }
+
+ .btnAli{
+     text-align: center;
+ }
+ .btnLogin
+ {
+     --border-radius: 30px;
+     --background: var(--ion-color-primary);
+     text-decoration: none;
+     text-transform: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    --padding-top: 10px;
+    --padding-bottom:10px;
+    --padding-start: 40px;
+    --padding-end: 40px;
+    font-family: 'Righteous';
+ }
+
+ .input{
+    border-bottom:2px solid var(--ion-color-primary);
+    border-radius: 10px;
+    color: var(--ion-color-primary);
+ }
+
+ .btnAli2{
+     text-align: center;
+     margin-top: 30px;
+ }

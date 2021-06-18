@@ -1,15 +1,75 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+@font-face {
+  font-family: 'Fredoka One Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Hammer Smith One';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/HammersmithOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+
+  font-family: 'Balsamiq Sans Bold';
+  font-style:normal;
+  font-weight: normal;
+  src: url(../fonts/BalsamiqSans-Bold.ttf)
+}
+
+@font-face {
+  
+  font-family: 'Balsamiq Sans Bold Italic';
+  font-style:normal;
+  font-weight: normal;
+  src: url(../fonts/BalsamiqSans-BoldItalic.ttf)
+}
+
+@font-face {
+  
+  font-family: 'Balsimiq Sans Regular';
+  font-style:normal;
+  font-weight: normal;
+  src: url(../fonts/BalsamiqSans-Regular.ttf)
+}
+
+@font-face {
+  
+  font-family: 'Balsimiq Sans Italic';
+  font-style:normal;
+  font-weight: normal;
+  src: url(../fonts/BalsamiqSans-Italic.ttf)
+}
+
+@font-face {
+  font-family: 'Carter One Regular';
+  font-family: normal;
+  font-weight: normal;
+  src: url(../fonts/CarterOne-Regular.ttf);
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary:#69bb7b;
+  --ion-color-primary-rgb: 105,187,123;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: #5ca56c;
+  --ion-color-primary-tint: #78c288;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -83,12 +143,13 @@ http://ionicframework.com/docs/theming/ */
    */
 
   body {
-    --ion-color-primary: #428cff;
-    --ion-color-primary-rgb: 66,140,255;
-    --ion-color-primary-contrast: #ffffff;
-    --ion-color-primary-contrast-rgb: 255,255,255;
-    --ion-color-primary-shade: #3a7be0;
-    --ion-color-primary-tint: #5598ff;
+     /** primary **/
+  --ion-color-primary:#69bb7b;
+  --ion-color-primary-rgb: 105,187,123;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #5ca56c;
+  --ion-color-primary-tint: #78c288;
 
     --ion-color-secondary: #50c8ff;
     --ion-color-secondary-rgb: 80,200,255;
